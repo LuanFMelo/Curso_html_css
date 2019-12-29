@@ -3,22 +3,27 @@
     <head>
         <meta charset= "utf-8"> <!--Metadados UTF-8 acentos-->
         <title>Tech Intercambios</title> <!--Título-->
+        <link rel="stylesheet" type="text/css" href="css/style.css"> <!-- Referencia ao CSS-->
     </head>
     <body> <!--Corpo-->
         <nav> <!--Menu-->
             <p>Intercambios</p>  <!--Parágrafo-->
             <ul> <!--Lista de itens-->
                 <li> <!--Itens da Lista + links-->
-                    <a href="#servicos">Serviços</a>
+                    <a href="#servicos">Serviços</a> <!-- # Chama o ID-->
                 </li> 
                 <li>
-                    <a href="#clientes">Clientes</a>
+                    <a href="#clientes">Clientes</a> <!-- # Chama o ID-->
                 </li>
                 <li>
-                    <a href="#parceiros">Parceiros</a>
+                    <a href="#parceiros">Parceiros</a> <!-- # Chama o ID-->
                 </li>
-                <li>Time</li>
-                <li>Contato</li>
+                <li>
+                    <a href="#time">Time</a> <!-- # Chama o ID-->
+                </li>
+                <li>
+                    <a href="#contato">Contato</a> <!-- # Chama o ID-->
+                </li>
             </ul>
         </nav>
 
@@ -26,6 +31,9 @@
             <h1>Meu título</h1>
             <p> <!--Parágrafo-->
                 Oferecemos melhores viagens de intercambio para diversos países.
+                Intercâmbio é um período de troca cultural e experiência em outro país, sendo a maneira mais rápida e eficiente para melhorar o seu nível de inglês ou de outro idioma.​ Ao estudar, viver e trabalhar no exterior, você vai ampliar seu conhecimento e obter muito mais oportunidades.
+
+Confira nossos programas e saiba tudo sobre intercâmbio no exterior: o que é, como fazer, como funciona, para onde ir, quanto custa (preços) e mais!
             </p>
         </header>
 
@@ -35,39 +43,68 @@
                 Oferecemos os melhores serviços de Intercambio
             </p>
             <div> <!--Separador de imagens-->
-                <img src="img/viagem.jpeg"> <!--Chama uma imagem-->
+                <img src="img/viagem.jpeg" class="img_padrao"> <!--Chama uma imagem e classe-->
             </div>
             <div>
-                <img src="img/viagem2.jpeg" width="850px">
+                <img src="img/viagem2.jpeg" class="img_padrao"> <!--Chama uma imagem e classe-->
             </div>
         </section>
+
         <section id="clientes"> <!--Lista de Sessões + id de identificação-->
             <h2>Clientes</h2><!--Título menor que h1-->
             <p> <!--Parágrafo-->
                 Nossos clientes estão espalhados por todas as partes do mundo
             </p>
             <div> <!--Separador de imagens-->
-                <img src="img/cliente.jpg"> <!--Chama uma imagem-->
+                <img src="img/cliente.jpg" class="img_padrao"> <!--Chama uma imagem-->
             </div>
             <div> <!--Separador de imagens-->
-                <img src="img/cliente2.jpg"> <!--Chama uma imagem-->
+                <img src="img/cliente2.jpg" class="img_padrao"> <!--Chama uma imagem-->
             </div>
         </section>
+
         <section id="parceiros"> <!--Lista de Sessões + id de identificação-->
             <h2>Parceiros</h2> <!--Título menor que h1-->
             <p> <!--Parágrafo-->
                 Somos parceiros de várias outras agências de intercambio em todo o mundo!
             </p>  
             <div> <!--Separador de imagens-->
-                <img src="img/parceiros2.jpeg"> <!--Chama uma imagem-->
+                <a href="https://www.canada.ca" target="_blank">
+                <img src="img/parceiros.jpeg" class="img_parceiro"> <!--Chama uma imagem-->
+                </a>
+            </div>
+            <div>
+                <a href="https://www.youtube.com/user/kozmatv" target="_blank">
+                <img src="img/parceiros2.jpeg" class="img_parceiro"> <!--Chama uma imagem-->
+                </a>
             </div>
         </section>
+
         <section id="time"> <!--Lista de Sessões + id de identificação-->
-            <h2>Time</h2>
-            <p>
+            <h2>Time</h2> <!--Título menor que h1-->
+            <p> <!--Parágrafo-->
                 Nosso time é composto por integrantes de diferentes nacionalidades para auxiliar você!
             </p>
+            <div> <!--Separador de imagens-->
+                <img src="img/time.jpeg" class="img_padrao"> <!--Chama uma imagem-->
+            </div>
         </section>
+
+        <section id="contato"> <!--Lista de Sessões + id de identificação-->
+            <h2>Contato</h2> <!--Título menor que h1-->
+            <p> <!--Parágrafo-->
+            Segue nossas redes sociais e contatos.
+            </p>
+            <div> <!--Separador de imagens-->
+                <img src="img/contato.jpeg" class="logo"> <!--Chama uma imagem-->
+                <p><a href="mailto:tech.intercambios@gmail.com">tech.intercambios@gmail.com</a></p>
+            </div>
+            <div><!--Separador de imagens-->
+                <img src="img/fone.jpeg" class="logo"> <!--Chama uma imagem-->
+                <p><a href="tel:(21)99999-1111">(21)99999-1111</a></p>
+            </div>
+        </section>
+
         <footer> <!--Rodapé-->
             <p><!--Parágrafo-->
                 Desenvolvido por Luan Farias

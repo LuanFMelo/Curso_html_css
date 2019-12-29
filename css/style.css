@@ -1,0 +1,38 @@
+body { /*Alterações em todo conteúdo da tag body*/
+    background: #F9F9F9; /*Cor de fundo*/
+    margin-left: 50px; /*Margem da esquerda*/
+    margin-right: 50px; /*Margem da direita*/
+}
+header{ /*Margem do título*/
+    margin-top: 30px; 
+}
+h1 { /*Fonte e cor do elemento h1*/
+    color: red; /*Cor do h1*/
+    font-family: fantasy; /*Fonte do h1*/
+}
+
+h2 { /*Fonte do elemento h2*/
+    font-family: fantasy; /*Fonte do h1*/
+}
+
+p { /*Fonte do paragrafo*/
+    font-size: 18px; /*Fonte de todos os paragrafos*/
+}
+
+.img_padrao { /*Espaçamento das imagens da Classe*/
+    margin-bottom: 30px; /*Margem bottom das imagens */
+    width: 300px; /*Tamanho da imagem*/
+}
+
+.img_parceiro { /*Espaçamento das imagens da Classe*/
+    width: 150px;
+    margin-bottom: 30px;
+}
+
+.logo { /*Espaçamento das imagens da Classe*/
+    width: 50px;
+}
+
+footer {
+    margin-bottom: 30px;
+}
